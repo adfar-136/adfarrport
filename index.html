@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adfar Rasheed - FSD Developer & Content Creator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container d-flex align-items-center justify-content-between">
+            <div class="logo">
+                <i class="fa-solid fa-code"></i>
+                <span>Adfar</span>
+            </div>
+            <nav class="nav-links">
+                <a href="#" class="active">Home</a>
+                <a href="#">About</a>
+                <a href="#">Portfolio</a>
+                <a href="#">Contact</a>
+                <a href="#">Pages <i class="fa-solid fa-chevron-down nav-arrow"></i></a>
+            </nav>
+            <div class="nav-controls">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <button class="theme-toggle"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <button class="hamburger"><i class="fa-solid fa-bars"></i></button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <h1>Welcome <span class="text-primary">!</span><br>to Adfar Rasheed's Portfolio</h1>
+                    <p>I am a MERN stack Gen AI developer, currently working as a Full Stack Developer (FSD) at Physics Wallah. I also create tech content on YouTube and Instagram to help the developer community.</p>
+                    <a href="#" class="btn btn-primary">Know About Me</a>
+                </div>
+                <div class="hero-image">
+                    <!-- Placeholder avatar wrapper -->
+                    <div class="avatar-bg">
+                        <img src="https://ui-avatars.com/api/?name=Adfar+Rasheed&size=300&background=20c997&color=fff&rounded=true" alt="Adfar Rasheed">
+                    </div>
+                </div>
+            </div>
+            <!-- Bottom curve (SVG wave) -->
+            <div class="hero-wave">
+                <svg viewBox="0 0 1440 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 0C240 70 480 100 720 100C960 100 1200 70 1440 0V100H0V0Z" fill="#1a1a1a"/>
+                </svg>
+            </div>
+        </section>
+
+        <!-- Main Content Area -->
+        <section class="content-area">
+            <div class="container layout-grid">
+                <!-- Left Column -->
+                <div class="main-column">
+                    <!-- Featured Posts -->
+                    <div class="section-heading">
+                        <h2>Featured Posts</h2>
+                    </div>
+                    <div class="featured-posts">
+                        <article class="post-card featured-card">
+                            <div class="card-image">
+                                <span class="badge">Github</span>
+                                <img src="https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?q=80&w=600&auto=format&fit=crop" alt="Featured Post">
+                            </div>
+                            <div class="card-content">
+                                <h3>What is a Virtual Assistant</h3>
+                                <div class="post-meta">
+                                    <span><i class="fa-solid fa-user"></i> Adfar Rasheed</span>
+                                    <span><i class="fa-regular fa-calendar"></i> 04 Apr 2022</span>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Venenatis sollicitudin urna, vulputate erat. Aliquam erat volutpat.</p>
+                                <a href="#" class="btn-outline">Read More</a>
+                            </div>
+                        </article>
+                        
+                        <div class="side-posts">
+                            <article class="small-post">
+                                <img src="https://images.unsplash.com/photo-1550439062-609e1531270e?q=80&w=150&auto=format&fit=crop" alt="Post">
+                                <div>
+                                    <h4>Drone Software and Development</h4>
+                                    <div class="post-meta"><span><i class="fa-regular fa-calendar"></i> 04 Apr 2022</span></div>
+                                </div>
+                            </article>
+                            <article class="small-post">
+                                <img src="https://images.unsplash.com/photo-1484417894907-623942c8ee29?q=80&w=150&auto=format&fit=crop" alt="Post">
+                                <div>
+                                    <h4>How to make toys from old paper</h4>
+                                    <div class="post-meta"><span><i class="fa-regular fa-calendar"></i> 04 Apr 2022</span></div>
+                                </div>
+                            </article>
+                            <article class="small-post">
+                                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=150&auto=format&fit=crop" alt="Post">
+                                <div>
+                                    <h4>My work from home workstation</h4>
+                                    <div class="post-meta"><span><i class="fa-regular fa-calendar"></i> 04 Apr 2022</span></div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+
+                    <!-- Promo Banner -->
+                    <div class="promo-banner mt-40">
+                        <div class="promo-content">
+                            <div class="promo-icon"><i class="fa-solid fa-ban"></i></div>
+                            <div>
+                                <h3>Thank you for staying home</h3>
+                                <p>You doing right</p>
+                            </div>
+                        </div>
+                        <button class="btn btn-banner"><i class="fa-solid fa-chevron-right"></i></button>
+                    </div>
+
+                    <!-- Recent Posts -->
+                    <div class="section-heading mt-40">
+                        <h2>Recent Posts</h2>
+                    </div>
+                    <div class="recent-posts-grid">
+                        <article class="post-card">
+                            <div class="card-image">
+                                <span class="badge">Robotics</span>
+                                <span class="badge badge-secondary">Web Dev</span>
+                                <img src="https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=400&auto=format&fit=crop" alt="Recent Post">
+                            </div>
+                            <div class="card-content">
+                                <h3>How to make toys from old paper</h3>
+                                <div class="post-meta">
+                                    <span><i class="fa-solid fa-user"></i> Adfar</span>
+                                    <span><i class="fa-regular fa-calendar"></i> 04 Apr 2022</span>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Venenatis sollicitudin urna, vulputate erat...</p>
+                                <a href="#" class="btn-outline">Read More</a>
+                            </div>
+                        </article>
+                        <article class="post-card">
+                            <div class="card-image">
+                                <span class="badge">Programming</span>
+                                <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=400&auto=format&fit=crop" alt="Recent Post">
+                            </div>
+                            <div class="card-content">
+                                <h3>What you need to know about Programming</h3>
+                                <div class="post-meta">
+                                    <span><i class="fa-solid fa-user"></i> Adfar</span>
+                                    <span><i class="fa-regular fa-calendar"></i> 04 Apr 2022</span>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Venenatis sollicitudin urna, vulputate erat...</p>
+                                <a href="#" class="btn-outline">Read More</a>
+                            </div>
+                        </article>
+                    </div>
+                    
+                    <!-- Pagination -->
+                    <div class="pagination mt-40">
+                        <a href="#" class="prev"><i class="fa-solid fa-arrow-left"></i> Previous</a>
+                        <a href="#" class="page-num active">1</a>
+                        <a href="#" class="page-num">2</a>
+                        <a href="#" class="page-num">3</a>
+                        <a href="#" class="next">Next <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Sidebar -->
+                <aside class="sidebar">
+                    <!-- Map Widget -->
+                    <div class="widget map-widget">
+                        <div class="map-placeholder">
+                            <div class="logo justify-content-center mb-10">
+                                <i class="fa-solid fa-code"></i> <span>Adfar</span>
+                            </div>
+                            <p class="text-center text-sm mb-20 text-muted">Content creator, FSD at Physics Wallah. Helping thousands of developers around the globe.</p>
+                            <div class="widget-socials justify-content-center">
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                                <a href="#"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Featured Links -->
+                    <div class="widget">
+                        <h3 class="widget-title">Featured</h3>
+                        <div class="feature-tabs">
+                            <button class="active">Featured</button>
+                            <button>Recent</button>
+                        </div>
+                        <ul class="widget-list">
+                            <li>
+                                <h4>How to make toys from old paper</h4>
+                                <span><i class="fa-regular fa-calendar"></i> 04 Apr 2022</span>
+                            </li>
+                            <li>
+                                <h4>What you need to know about Programming</h4>
+                                <span><i class="fa-regular fa-calendar"></i> 04 Apr 2022</span>
+                            </li>
+                            <li>
+                                <h4>Why you need to learn PHP</h4>
+                                <span><i class="fa-regular fa-calendar"></i> 04 Apr 2022</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Newsletter -->
+                    <div class="widget">
+                        <h3 class="widget-title">Newsletter</h3>
+                        <p class="text-sm mb-20 text-center">Join the weekly newsletter and get our latest updates.</p>
+                        <form class="newsletter-form">
+                            <div class="input-group">
+                                <input type="email" placeholder="Your email address" required>
+                                <i class="fa-regular fa-envelope"></i>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100 mt-10">Sign In</button>
+                        </form>
+                        <p class="text-xs mt-10 text-center text-muted">By signing up, you agree to <a href="#" class="text-primary">Privacy Policy</a></p>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <!-- Footer Area -->
+        <footer class="footer">
+            <div class="container footer-content text-center">
+                <div class="logo justify-content-center mb-20">
+                    <i class="fa-solid fa-code"></i> <span>Adfar</span>
+                </div>
+                <p class="text-sm text-muted mb-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in lorem ut dolor viverra scelerisque.</p>
+                <div class="footer-links mb-20">
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+                <div class="widget-socials justify-content-center mb-40">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <p class="copyright text-xs text-muted">Designed and Developed by Adfar Rasheed, FSD at Physics Wallah</p>
+            </div>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
